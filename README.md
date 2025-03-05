@@ -34,5 +34,5 @@ sudo docker pull postgres
 ```
 
 ```
-sudo docker run --name chatbot -e POSTGRES_PASSWORD=1234 -d -p 5432:5432 postgres
+sudo docker run --name chatbot -e POSTGRES_PASSWORD=[senha] -d -p 5432:5432 postgres
 ```
