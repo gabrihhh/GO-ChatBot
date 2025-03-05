@@ -26,3 +26,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```
 sudo docker run hello-world
 ```
+
+<h4>instalação do banco postgres</h4>
+
+```
+sudo docker pull postgres
+```
+
+```
+sudo docker run --name chatbot -e POSTGRES_PASSWORD=1234 -d -p 5432:5432 postgres
+```
