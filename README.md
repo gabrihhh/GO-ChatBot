@@ -42,3 +42,8 @@ sudo docker run --name chatbot -e POSTGRES_PASSWORD=[senha] -d -p 5432:5432 post
 ```
 sudo docker exec -it chatbot bash
 ```
+
+<h1>Golang</h1>
+
+<h4>Como rodar</h4>
+No terminal, execute o comando: go run main.go isso irá criar um servidor na porta 8080
