@@ -1,6 +1,12 @@
 <h2>Instalação do banco de dados</h2>
 
-<h4>1º - instalando docker, para instalar no windows previamente é necessário baixar o ubuntu na loja da microsoft e utilizar o script no prompt de comando do linux.</h4>
+<h4>instalando docker, para instalar no windows previamente é necessário baixar o ubuntu na loja da microsoft,abrir ubuntu no terminal, aguardar a instalação e depois utilizar o script no prompt de comando do PowerShell.</h4>
+
+```
+wsl.exe --install
+```
+
+<h4>Após isso, reinicie o computador, registre-se no ubuntu e executar os scripts abaixo:</h4>
 
 ```
   # Add Docker's official GPG key:
